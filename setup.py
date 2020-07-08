@@ -46,6 +46,19 @@ SQLAlchemy's Advantages:
     ]
     )
 
+"""
+Lucas:
+
+This file is used to install the package. This version, v0.1.0 is on Pypi as well. As shown in the README:
+    `python setup.py install`
+this is how to install the package.
+
+From line 11: `find_packages('lib'), we know the core package files are located within lib/ directory. And within the lib/, there is another directory and it is also the only directory called sqlalchemy.
+Therefore, we should look into the files in `lib/sqlalchemy/*`
+
+Interesting to see this was a one person's open source project and later it has become an industrial standard open source project.
+"""
+
 
 
 
